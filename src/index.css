@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: sans-serif
+}
+
+/* navbar */
+
+.nav {
+  display: block;
+  text-align: center;
+  background-color: rgba(164,46,46,0.85);
+  position: fixed;
+  width: 100%;
+}
+
+.nav a {
+  position: relative;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* page with all beers <3 */
+
+.beerSearch {
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.beerSearchYet {
+  padding: 30px;
+}
+
+.beerSearch span {
+  font-weight: bold;
+  color: black;
+}
+
+.beerSearch input {
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  border-bottom: 2px solid rgba(164,46,46);
+}
+
+input:focus{
+  outline: none;
+}
+
+input::placeholder {
+  opacity: .5;
+  letter-spacing: 3px;
+}
+
+.pageBeers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.beer {
+  display: block;
+  flex-direction: row;
+  text-align: center;
+  padding: 25px 20px 20px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.beerImg {
+  float: left;
+  width: 20%;
+}
+
+.beer img {
+  height: 300px;
+  padding-left: 15%;
+}
+
+.beer h1 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: #333;
+  padding-top: 20px;
+}
+
+.beer p {
+  opacity: 0.7;
+  padding: 20px;
+}
+
+.beerBtn {
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  color: rgba(164,46,46);
+  border: 2px solid rgba(164,46,46);
+  border-radius: 8%;
+  padding: 10px;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.beerBtn:hover {
+  color: white;
+  background-color: rgba(164,46,46);
+  border: 2px solid white;
+}
+
+/*  card with beer  */
+
+.cardBeer {
+  padding-top: 70px;
+  text-align: center;
+  color: black;
+}
+
+.cardAbv {
+  font-size: 40px;
+  color:#333;
+  font-weight: bold;
+}
+
+.cardAbv h2 {
+  padding-top: 30px;
+}
+
+.cardName {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardDescr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.cardBeer h1 {
+  float: left;
+  text-transform: uppercase;
+  font-size: 70px;
+  border-bottom: 2px solid #333;
+}
+
+.cardDescrP {
+  padding: 50px;
+  color: #333;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.foodCard {
+  width: 40%;
+  border: 2px solid #333;
+  border-radius: 10%;
+  background-color: bisque;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.cardImage {
+  padding: 100px 20px 20px 20px;
+}
+
+.cardImage img {
+  height: 60%;
+  width: auto;
+}
