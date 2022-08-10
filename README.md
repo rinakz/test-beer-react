@@ -1,4 +1,4 @@
-<h2>beer-react</h2>
+<h1>beer-react</h1>
 
 <div>
   <div>
